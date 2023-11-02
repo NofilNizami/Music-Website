@@ -1,0 +1,549 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #0E0837;
+}
+
+::-webkit-scrollbar {
+    width: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(135deg, rgb(254, 205, 165) 0%, rgb(254, 45, 45) 50%, rgb(107, 0, 62) 100%);
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1.5rem;
+}
+
+.heading h3{
+    color: #D61359;
+    font-size: 36px;
+}
+
+
+
+.intro{
+    background: url(https://i.gifer.com/OwRt.gif);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.intro h1{
+    font-size: 44px;
+}
+
+
+.heading p{
+    color: white;
+}
+
+.heading p span{
+    color: #D61359;
+}
+
+.logo{
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    color: white;
+}
+
+.logo i{
+    transition: all 0.5s;
+}
+
+.logo i:hover{
+    color: #ED272F;
+    cursor: pointer;
+    transform: translateY(-10px);
+}
+
+.heading button{
+    width: 150px;
+    padding: 12px;
+    border: none;
+    background-color: #0567F3;
+    color: white;
+    font-size: 18px;
+    transition: all 0.5s;
+}
+
+.heading button:hover{
+    transform: translateY(-10px);
+    background-color: #2a7ef5;
+}
+
+.image img{
+    width: 600px;
+}
+
+
+
+
+/* Small-main */
+
+.small-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    margin-top: 150px;
+}
+
+.mainchild{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 65%;
+    margin: auto;
+}
+
+.mainchild h3{
+    color: #D61359;
+    font-size: 36px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: #100726;
+    padding: 50px 15px;
+}
+
+.menu h4{
+    color: white;
+    font-size: 20px;
+}
+
+.mainchild-1{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.mainchild-1 p{
+    color: white;
+    
+}
+
+.mainchild-1 button{
+    background-color: #ED272F;
+    color: white;
+    padding: 10px;
+    border: none;
+    width: 130px;
+    border-radius: 10px;
+    font-size: 18px;
+    transition: all 0.5s;
+}
+
+.mainchild-1 button:hover{
+    transform: translateY(-10px);
+    background-color: #eb4a4f;
+}
+
+
+.second-mainchild{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+    background: linear-gradient(135deg, rgb(254, 205, 165) 0%, rgb(254, 45, 45) 50%, rgb(107, 0, 62) 100%);
+}
+
+.second-mainchild:hover .card-img img{
+    transform: translate(150px,-200px);
+    border-radius: 50%;
+}
+
+.card-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.card-img img{
+    width: 100%;
+    transition: all 1s;
+
+}
+
+.img-title{
+    color: white;
+    transition: all 0.8s;
+}
+
+.img-title h1{
+    margin: 20px 0px;
+}
+
+.second-mainchild:hover .img-title{
+    transform: translateY(-100px);
+}
+
+
+
+/* Title */
+
+.title{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 50px;
+color: #D61359;
+font-size: 22px;
+gap: 1rem;
+}
+
+
+
+/* Video-Img */
+
+.video-img{
+    width: 80%;
+    margin: 50px auto;
+    position: relative;
+}
+
+.video-img img{
+    width: 100%;
+}
+
+.video-img i{
+    color: white;
+    font-size: 300%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* Info */
+
+.info{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    gap: 2rem;
+    align-items: center;
+
+    margin-bottom: 50px;
+}
+
+.info-title{
+    width: 50%;
+}
+
+.info-title h3{
+    color: #D61359;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.info-title h1{
+    color: white;
+}
+
+.info-para{
+    width: 50%;
+    color: white;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.info-para .pa{
+    margin-bottom: 20px;
+}
+
+
+/* Section */
+
+
+section{
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 7)), url("https://demo.moxcreative.com/beatkit/wp-content/uploads/sites/21/2021/04/dj-sound-equipment-at-nightclubs-and-music-festivals-edm-future-house-music-and-so-on.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000%;
+}
+
+.junior{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-child{
+    width: 60%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.section-child h2{
+    margin-bottom: 30px;
+    color: #D61359;
+}
+
+.first{
+    background: linear-gradient(45deg, rgb(70, 12, 58), #0E0829, #2B0F47);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.5rem;
+    transition: all 0.5s;
+}
+
+.first:hover{
+    transform: scale(1.5);
+    background:linear-gradient(45deg, orange, red, purple);
+}
+
+.first-part{
+    display: flex;
+    gap: 1rem;
+    transition: all 0.5s;
+}
+
+.first-part i{
+    transition: all 0.5s;
+}
+
+.first-part i:hover{
+    color: #ED272F;
+    cursor: pointer;
+    transform: scale(1.5);
+}
+
+.first-part-second{
+    display: flex;
+    gap: 2rem;
+}
+
+.logos i{
+    margin-right: 10px;
+    transition: all 0.5s;
+}
+
+.logos i:hover{
+    color: #ED272F;
+    transform: translateY(-10px);
+}
+
+
+
+
+
+.section-kid{
+    background: linear-gradient(125deg, rgb(70, 12, 58), #0E0829, #2B0F47);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: space-between;
+    padding: 2.5rem;
+    transition: all 0.5s;
+    gap: 1rem;
+    margin-left: 50px;
+}
+
+
+.section-kid h3{
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.section-kid h1{
+    font-size: 40px;
+}
+
+.section-kid h2{
+    color: #D61359;
+    font-weight: 200;
+}
+
+.another-logos{
+    display: flex;
+    justify-content: space-around;
+}
+
+.another-logos i{
+    transition: all 0.5s;
+}
+
+.another-logos i:hover{
+    color: #ED272F;
+    cursor: pointer;
+    transform: translateY(-10px);
+}
+
+.section-kid h4{
+    font-size: 24px;
+    font-weight: 300;
+    color: #D61359;
+}
+
+.playback-child{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: relative;
+    background: linear-gradient(135deg, rgba(6, 147, 227, 1) 0%, rgb(155, 81, 224) 100%) !important;
+}
+
+.circle i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+/* Line */
+
+.line{
+    width: 100%;
+    height: 50px;
+    background-color: #0E0837;
+}
+
+
+/* Line Heading */
+
+.line-heading{
+    background-color: #0E0727;
+    width: 100%;
+    text-align: center;
+    padding: 2rem;
+}
+
+.line-heading h2{
+    color: #D61359;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.line-heading h1{
+    font-size: 40px;
+    color: white;
+}
+
+
+
+
+/* Boxes */
+
+.boxes{
+    display:flex;
+    flex-direction: column;
+}
+
+.box-child{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 1rem;
+    transition: all 0.5s;
+    background: linear-gradient(-45deg, #460C3A, #0E0829, #2B0F47);
+}
+
+.box-child:hover{
+    background: linear-gradient(45deg, #460C3A, #0E0829, #2B0F47);
+}
+
+.box-child1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.square-box{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.square-img{
+    width: 50px;
+    height: 60px;
+    border: none;
+    background-color: #AA1072;
+    position: relative;
+}
+
+.square-img i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 18px;
+}
+
+.box-dates{
+    color: white;
+}
+
+.box-dates h4{
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.box-child1 h1{
+    color: white;
+    font-size: 26px;
+}
+
+.box-child1 button{
+    background-color: #157347;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 5px;
+    width: 110px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+.box-child1 button:hover{
+    background-color: #157347b7;
+    transform: translateY(-10px);
+
+}
+
